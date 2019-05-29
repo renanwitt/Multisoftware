@@ -20,6 +20,9 @@
 
       <?php include("menu/index.php"); ?>
 
+      <?php include("cte/index.php"); ?>
+      <br><br><br><br><br>
+
       <?php include("footer/index.php"); ?>
 
     
