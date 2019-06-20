@@ -60,7 +60,16 @@
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		<span>Abaixo, encontram-se 8 passos de como emitir um CT-e do tipo subcontratação. Leia-os e siga com atenção.</span><br><br>
+		<span><i>1.</i> No menu principal, vá em <b>EMISSÕES</b> e em seguida CT-e.</span><br><br>
+		<span><i>2.</i> Clique em <b>IMPORTAR CT-e</b>.</span><br><br>
+		<span><i>3.</i> Em <b>ADICIONAR ARQUIVO</b> no canto inferior esquerdo, selecione o arquivo XML do CT-e. Em seguida, clique em <b>INICIAR O ENVIO.</b></span><br><br>
+		<span><i>4.</i> Na aba <b>OUTROS</b> informe o tomador do serviço.</span><br><br>
+		<span><i>5.</i> Na aba <b>INFO DA CARGA</b> existem outras abas específicas, cada qual com uma finalidade.</span><br>
+		<span><b><i>&emsp;&#8227; RODOVIÁRIO: </i></b>Insira a(s) placa(s) do(s) veículo(s), nome e CPF do motorista.</span><br><br>
+		<span><i>6.</i> Na aba <b>SERVIÇOS E IMPOSTOS</b> insira o valor do frete. Caso haja outros itens que compõem o frete, como pedágio por exemplo, descreva-o(s) também de acordo com os campos existentes.</span><br><br>
+		<span><i>7.</i> Na aba <b>OBSERVAÇÕES</b>, fica a critério ou não, de inserir uma mensagem desejada que ficará visível no corpo do CTE.</span><br><br>
+		<span><i>8.</i> Por fim, revise os passos anteriores, bem como cada aba do sistema. Se tudo estiver de acordo, clique em <b>EMITIR CT-e</b>.</span><br><br>
       </div>
     </div>
   </div>
