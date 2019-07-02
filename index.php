@@ -12,6 +12,7 @@
     <!-- Importação CSS -->
     <link rel="stylesheet" type="text/css" href="css/footer.css"/>
     <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+    <link rel="stylesheet" type="text/css" href="css/text.css">
 
   </head>
   <body>
@@ -20,7 +21,7 @@
 
       <?php include("menu/index.php"); ?>
 
-      <?php include("certificado/certificadoContent.php"); ?>
+      <?php include("cte/index.php"); ?>
       <br><br><br><br><br>
 
       <?php include("footer/index.php"); ?>
