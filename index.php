@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-  <title>Perguntas e Respostas (FAQ)</title>
+  <title>INÍCIO | Perguntas e Respostas (FAQ)</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,7 +21,7 @@
 
       <?php include("menu/index.php"); ?>
 
-      <?php include("cte/index.php"); ?>
+      <center><img src="img/interrogacao.png"></center>
       <br><br><br><br><br>
 
       <?php include("footer/index.php"); ?>

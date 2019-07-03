@@ -5,7 +5,7 @@
     <div class="container">
 
       <a class="navbar-brand mr-5" href="#">
-        <img src="img/logo.png" alt="">
+        <img src="http://localhost/Multisoftware/img/logo.png" alt="">
       </a>
 
       <a class="navbar-brand ml-5" href="#">
