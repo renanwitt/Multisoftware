@@ -13,10 +13,14 @@
     </div>
     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-       &bull; Nota fiscal em formato XML* <br>
-	   &bull; Valor do frete <br>
-	   &bull; Placa(s) do(s) veículo(s) <br>
-	   &bull; Nome e CPF do motorista <br>
+       <div class="textContent">
+	       <span>
+          <p>&bull; Nota fiscal em formato XML* <br>
+	           &bull; Placa(s) do(s) veículo(s) <br>
+	           &bull; Nome e CPF do motorista</p>
+
+          <p>Para emitir um manifesto de forma manual, sem vincluar CTE, é essencial ter o arquivo XML da nota fiscal.</p>
+      </div> <!-- Fim das informações -->
       </div>
     </div>
   </div>
@@ -30,23 +34,18 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
       <div class="card-body">
-		<span>Abaixo, encontram-se 10 passos de como emitir um CT-e do tipo normal. Leia-os e siga com atenção.</span><br><br>
-		<span><i>1.</i> No menu principal, vá em <b>EMISSÕES</b> e em seguida CT-e.</span><br><br>
-		<span><i>2.</i> Clique em <b>IMPORTAR XML NF-e</b>.</span><br><br>
-		<span><i>3.</i> Em <b>ADICIONAR ARQUIVO</b> no canto inferior esquerdo, selecione o arquivo XML da nota fiscal. Em seguida, clique em <b>INICIAR O ENVIO.</b></span><br><br>
-		<span><i>4.</i> Na aba <b>DADOS</b>, selecione o tomador do serviço e o CFOP.</span><br><br>
-		<span><i>5.</i> Na aba <b>REMETENTE</b> e <b>DESTINATÁRIO</b>, certifique-se que os dados ali contidos estão de acordo com o desejado.</span><br><br>
-		<span><i>6.</i> Na aba <b>OUTROS</b>, pode ser inserido um expedidor ou recebedor, caso necessite.</span><br><br>
-		<span><i>7.</i> Na aba <b>INFO DA CARGA</b> existem outras abas específicas, cada qual com uma finalidade.</span><br>
-		<span><b><i>&emsp;&#8227; INFORMAÇÕES: </i></b>Certifique os campos valor carga, produto predominante e informações de quantidade de carga.</span><br>
-		<span><b><i>&emsp;&#8227; RODOVIÁRIO: </i></b>Insira a(s) placa(s) do(s) veículo(s), nome e CPF do motorista.</span><br>
-		<span><b><i>&emsp;&#8227; SEGURO: </i></b>Caso a carga possua seguro, preencha as informações do seguro de acordo com os campos existentes nesta aba.<span><br><br>
-		<span><i>8.</i> Na aba <b>SERVIÇOS E IMPOSTOS</b> insira o valor do frete. Caso haja outros itens que compõem o frete, como pedágio por exemplo, descreva-o(s) também de acordo com os campos existentes.</span><br><br>
-		<span><i>9.</i> Na aba <b>OBSERVAÇÕES</b>, fica a critério ou não, de inserir uma mensagem desejada que ficará visível no corpo do CTE.</span><br><br>
-		<span><i>10.</i> Por fim, revise os passos anteriores, bem como cada aba do sistema. Se tudo estiver de acordo, clique em <b>EMITIR CT-e</b>.</span><br><br>
-		<span>Veja também: Como emitir um CT-e em vídeo:</span><br>
-		<iframe width="1000" height="500" src="https://www.youtube.com/embed/malVAS1k4B0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
-		<span>Ainda possui dúvidas? Contate nosso suporte.</span>
+		    <div class="textContent">
+          <span>
+            <p>Antes de emitir um MDF-e é preciso saber alguns detalhes importantes:</p>
+
+            <p>- Para cada estado de destino, é possível emitir apenas um único manifesto para determinada placa. Se forem emitidos vários CTE com mesmo estado de destino e mesma placa, todos devem ser inseridos em um único manifesto.</p>
+
+            <p>- Um manifesto pode ser cancelado no máximo em até 24h após sua emissão, desde que não passe em postos fiscais durante esse período ou que o SEFAZ verifique a circulação do mesmo.</p>
+
+            <p>- Cancelamento e encerramento de MDFe são processos diferentes. O cancelamento é indicado quando houverem divergências de informações ou cancelamento da viagem em até 24h após a emissão do documento. O encerramento deve ser feito somente quando toda a viagem for finalizada.</p>
+
+          </span>  
+        </div><!-- Fim do que devo saber -->
       </div>
     </div>
   </div>
@@ -60,16 +59,11 @@
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
       <div class="card-body">
-		<span>Abaixo, encontram-se 8 passos de como emitir um CT-e do tipo subcontratação. Leia-os e siga com atenção.</span><br><br>
-		<span><i>1.</i> No menu principal, vá em <b>EMISSÕES</b> e em seguida CT-e.</span><br><br>
-		<span><i>2.</i> Clique em <b>IMPORTAR CT-e</b>.</span><br><br>
-		<span><i>3.</i> Em <b>ADICIONAR ARQUIVO</b> no canto inferior esquerdo, selecione o arquivo XML do CT-e. Em seguida, clique em <b>INICIAR O ENVIO.</b></span><br><br>
-		<span><i>4.</i> Na aba <b>OUTROS</b> informe o tomador do serviço.</span><br><br>
-		<span><i>5.</i> Na aba <b>INFO DA CARGA</b> existem outras abas específicas, cada qual com uma finalidade.</span><br>
-		<span><b><i>&emsp;&#8227; RODOVIÁRIO: </i></b>Insira a(s) placa(s) do(s) veículo(s), nome e CPF do motorista.</span><br><br>
-		<span><i>6.</i> Na aba <b>SERVIÇOS E IMPOSTOS</b> insira o valor do frete. Caso haja outros itens que compõem o frete, como pedágio por exemplo, descreva-o(s) também de acordo com os campos existentes.</span><br><br>
-		<span><i>7.</i> Na aba <b>OBSERVAÇÕES</b>, fica a critério ou não, de inserir uma mensagem desejada que ficará visível no corpo do CTE.</span><br><br>
-		<span><i>8.</i> Por fim, revise os passos anteriores, bem como cada aba do sistema. Se tudo estiver de acordo, clique em <b>EMITIR CT-e</b>.</span><br><br>
+		    <div class="textContent">
+          <span>
+            <p>...........................</p>
+          </span>
+        </div><!-- Fim de como emitir MDFe -->
       </div>
     </div>
   </div>
@@ -92,7 +86,17 @@
     </div>
     <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <div class="textContent">
+          <span>
+            <p><b>IMPORTANTE:</b> Antes de cancelar um MDF-e, esteja ciente de que o mesmo foi emitido em período dentro das últimas 24h.</p>
+
+            <p>Estando logado no sistema MultiCTE, acesse o menu “emissões” e clique em “MDF-e”.</p>
+
+            <p>Para cancelar um manifesto, localize através dos filtros o número do documento que deseja cancelar. Em seguida, no menu de opções, selecione “cancelar”. Uma tela para confirmar o cancelamento será exibida, insira o motivo* pelo qual está cancelando o documento e confirme o procedimento. Pronto, documento cancelado!</p>
+
+            <p>*O motivo que deve ser inserido é para controle interno da transportadora.</p>
+          </span>
+        </div><!-- Fim de como cancelar um CTE -->
       </div>
     </div>
   </div>
@@ -106,7 +110,13 @@
     </div>
     <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <div class="textContent">
+          <span>
+            <p>Antes de encerrar um manifesto, tenha certeza de que a viagem referente ao documento, foi finalizada. Uma vez feito o procedimento de encerramento, não é possível reverter o feito.</p>
+
+            <p>Um CTE que têm o seu manifesto encerrado, mesmo dentro do período de 24h após a emissão de tais, não poderá mais ser cancelado. Um manifesto encerrado antes do término da viagem, pode acarretar eventuais multas para a transportadora.</p>
+          </span>
+        </div><!-- Fim do que devo saber -->
       </div>
     </div>
   </div>
@@ -129,7 +139,15 @@
     </div>
     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <div class="textContent">
+          <span>
+            <p><b>IMPORTANTE:</b> Antes de encerrar um manifesto, tenha certeza de que a viagem referente ao documento, foi finalizada.</p>
+
+            <p>Estando logado no sistema MultiCTE, acesse o menu “emissões” e clique em “MDF-e”.</p>
+
+            <p>Para encerrar um manifesto, localize através dos filtros o número do documento que deseja cancelar. Em seguida, no menu de opções, selecione “encerrar”. Uma tela para confirmar o encerramento será exibida, insira o motivo* pelo qual está encerrando o documento e confirme o procedimento. Pronto, documento encerrado!</p>
+          </span>
+        </div><!-- Fim de como encerrar -->
       </div>
     </div>
   </div>
@@ -143,7 +161,11 @@
     </div>
     <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <div class="textContent">
+          <span>
+            <p>...........................</p>
+          </span>
+        </div><!-- Fim do tratamento de rejeições -->
       </div>
     </div>
   </div>
@@ -157,7 +179,11 @@
     </div>
     <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        <div class="textContent">
+          <span>
+            <p>...........................</p>
+          </span>
+        </div><!-- Fim de rejeições -->
       </div>
     </div>
   </div>

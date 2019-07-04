@@ -9,7 +9,7 @@
             <li class="breadcrumb-item"><a href="http://localhost/Multisoftware/nfse">NFS-e</a></li>
             <li class="breadcrumb-item"><a href="#">CIOT</a></li>
             <li class="breadcrumb-item"><a href="http://localhost/Multisoftware/cadastros">Cadastros</a></li>
-            <li class="breadcrumb-item"><a href="#">Certificado Digital</a></li>
+            <li class="breadcrumb-item"><a href="http://localhost/Multisoftware/certificado">Certificado Digital</a></li>
             <li class="breadcrumb-item"><a href="#">Sistema</a></li>
             <li class="breadcrumb-item"><a href="#">Informações Legais</a></li>
         </ol>
